@@ -16,8 +16,8 @@ export const projectsData: Project[] = [
     tags: ["Python", "GitHub Actions", "Telegram API", "Financial Data"],
     githubUrl: "https://github.com/keingkrai/Trade_Template_by_mark_minervini",
     imageUrl: [
-      "public/Mark_Minervini/mark1.png",
-      "public/Mark_Minervini/mark2.png",
+      "Mark_Minervini/mark1.png",
+      "Mark_Minervini/mark2.png",
     ]
   },
   {
@@ -27,11 +27,11 @@ export const projectsData: Project[] = [
     tags: ["Python", "Machine Learning", "FastAPI", "Signal Processing"],
     githubUrl: "https://github.com/keingkrai/web_dog_detech",
     imageUrl: [
-      "public/Dog/dog1.png",
-      "public/Dog/dog2.png",
-      "public/Dog/dog3.png",
-      "public/Dog/dog4.png",
-      "public/Dog/dog5.png",
+      "Dog/dog1.png",
+      "Dog/dog2.png",
+      "Dog/dog3.png",
+      "Dog/dog4.png",
+      "Dog/dog5.png",
     ]
   },
   {
@@ -41,12 +41,12 @@ export const projectsData: Project[] = [
     tags: ["React", "Node.js", "FastAPI", "Autogen studio", "LLM", "MySQL", "XAMPP"],
     githubUrl: "https://github.com/keingkrai/Examination-project",
     imageUrl: [
-        "public/Exam/exam1.png",
-        "public/Exam/exam2.png",
-        "public/Exam/exam3.png",
-        "public/Exam/exam4.png",
-        "public/Exam/exam5.png",
-        "public/Exam/exam6.png",
+        "Exam/exam1.png",
+        "Exam/exam2.png",
+        "Exam/exam3.png",
+        "Exam/exam4.png",
+        "Exam/exam5.png",
+        "Exam/exam6.png",
     ]
   },
   {
@@ -56,10 +56,10 @@ export const projectsData: Project[] = [
     tags: ["Python", "OpenCV", "Machine Learning", "YOLOV8"],
     githubUrl: "https://github.com/keingkrai/realtime-detection-web",
     imageUrl: [
-        "public/FACE/face1.png",
-        "public/FACE/face2.png",
-        "public/FACE/face3.png",
-        "public/FACE/face4.png"
+        "FACE/face1.png",
+        "FACE/face2.png",
+        "FACE/face3.png",
+        "FACE/face4.png"
     ]
   },
   {
@@ -69,9 +69,9 @@ export const projectsData: Project[] = [
     tags: ["Next.js", "FastAPI", "OCR", "Machine Learning", "PostgreSQL"],
     githubUrl: "https://github.com/keingkrai/smart_tax",
     imageUrl: [
-        "public/Smart_tax/smart1.png",
-        "public/Smart_tax/smart2.png",
-        "public/Smart_tax/smart3.png",
+        "Smart_tax/smart1.png",
+        "Smart_tax/smart2.png",
+        "Smart_tax/smart3.png",
     ]
   },
   {
@@ -81,9 +81,9 @@ export const projectsData: Project[] = [
     tags: ["Next.js", "TypeScript", "LangChain", "LLM"],
     githubUrl: "https://github.com/keingkrai/MIT_project",
     imageUrl: [
-        "public/Mit/mit1.png",
-        "public/Mit/mit2.png",
-        "public/Mit/mit3.png",
+        "Mit/mit1.png",
+        "Mit/mit2.png",
+        "Mit/mit3.png",
     ]
   },
   {
@@ -93,8 +93,8 @@ export const projectsData: Project[] = [
     tags: ["Python", "RPCA", "Financial Data Analysis", "Web Scraping"],
     githubUrl: "https://github.com/keingkrai/RPCA",
     imageUrl: [
-        "public/RPCA/img1.png",
-        "public/RPCA/img2.png",
+        "RPCA/img1.png",
+        "RPCA/img2.png",
     ]
   },
   {
@@ -104,9 +104,9 @@ export const projectsData: Project[] = [
     tags: ["python", "LangChain", "ChromaDB", "OLLAMA", "RAG", "LLM", "Prompt Engineering"],
     githubUrl: "https://github.com/keingkrai/ChatBot_langchain",
     imageUrl: [
-        "public/BOT/bot1.png",
-        "public/BOT/bot2.png",
-        "public/BOT/bot3.png",
+        "BOT/bot1.png",
+        "BOT/bot2.png",
+        "BOT/bot3.png",
     ]
   }
 ];
