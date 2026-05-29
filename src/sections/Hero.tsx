@@ -31,7 +31,7 @@ export default function Hero() {
       <div className="flex items-center gap-6 mt-8">
         {/* resume */}
         <a
-          href="src/assets/resume.pdf"
+          href="public/resume.pdf"
           className="px-6 py-3 font-medium text-slate-900 bg-teal-400 rounded-md hover:bg-teal-300 transition-all duration-200"
         >
           My Resume
