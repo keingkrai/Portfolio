@@ -10,7 +10,7 @@ interface Message {
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { sender: 'bot', text: 'สวัสดีครับ! ผมคือ AI ผู้ช่วยของ Keingkrai ยินดีต้อนรับเข้าสู่ Portfolio ครับ มีอะไรอยากสอบถามเกี่ยวกับประวัติหรือผลงานของ Keingkrai พิมพ์ถามมาได้เลย!' }
+    { sender: 'bot', text: 'สวัสดีครับ! ฉันคือ F.R.I.D.A.Y. ผู้ช่วยของ Keingkrai ยินดีต้อนรับเข้าสู่ Portfolio ครับ มีอะไรอยากสอบถามเกี่ยวกับประวัติหรือผลงานของ Keingkrai พิมพ์ถามมาได้เลย!' }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -57,7 +57,7 @@ export default function Chatbot() {
           <div className="flex items-center justify-between px-4 py-3 bg-slate-800 border-b border-slate-700/50">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span className="font-semibold text-sm text-slate-200">Keingkrai AI Assistant</span>
+              <span className="font-semibold text-sm text-slate-200">F.R.I.D.A.Y AI Assistant</span>
             </div>
             <button 
               onClick={() => setIsOpen(false)}
@@ -101,7 +101,7 @@ export default function Chatbot() {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Ask me anything about Ken..."
+              placeholder="Ask me anything about Keingkrai..."
               disabled={isLoading}
               className="flex-1 px-3 py-2 bg-slate-900 border border-slate-800 rounded-md text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-teal-500 disabled:opacity-50"
             />
