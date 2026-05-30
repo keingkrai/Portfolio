@@ -1,73 +1,87 @@
-# React + TypeScript + Vite
+# Keingkrai Buakeaw - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, modern portfolio website built with React, TypeScript, and Tailwind CSS. This project showcases my software development projects, technical skills, and features an interactive AI-powered chatbot.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Interactive AI Chatbot:** Built using Google Gemini and Groq SDK to answer questions about my background and projects.
+- **Dynamic Project Gallery:** Showcases various projects ranging from Stock Automation to Machine Learning and Web Applications.
+- **Modern UI/UX:** Clean, dark-themed design with a focus on readability and smooth transitions.
+- **Fully Responsive:** Optimized for all devices from mobile to desktop.
+- **Typed Data:** Leverages TypeScript for robust data management in projects and knowledge bases.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** [React 19](https://react.dev/), [Vite](https://vitejs.dev/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/), [React Icons](https://react-icons.github.io/react-icons/)
+- **AI Integration:** [Google Generative AI (Gemini)](https://ai.google.dev/), [Groq SDK](https://groq.com/)
+- **Package Manager:** [Bun](https://bun.sh/) (or NPM/Yarn)
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```text
+src/
+├── components/     # Reusable UI components (ChatBot, ProjectCard, etc.)
+├── data/           # Project data and chatbot knowledge base
+├── sections/       # Main layout sections (Hero, Projects, Contact)
+├── utils/          # Utility functions and AI chatbot logic
+├── App.tsx         # Root component
+└── main.tsx        # Entry point
+public/             # Static assets (images, resume)
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🏁 Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Prerequisites
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- [Bun](https://bun.sh/) (Recommended) or NPM
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/keingkrai/my-portfolio.git
+   cd my-portfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   bun install
+   # or
+   npm install
+   ```
+
+3. Create a `.env` file in the root directory and add your API keys:
+   ```env
+   VITE_GEMINI_API_KEY=your_gemini_api_key
+   VITE_GROQ_API_KEY=your_groq_api_key
+   ```
+
+### Development
+
+Run the development server:
+```bash
+bun dev
+# or
+npm run dev
 ```
+
+### Build
+
+Build the project for production:
+```bash
+bun build
+# or
+npm run build
+```
+
+## 📄 License
+
+This project is private and for portfolio purposes. Please contact the author for any usage inquiries.
+
+---
+
+Built with ❤️ by [Keingkrai Buakeaw](https://github.com/keingkrai)
